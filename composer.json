@@ -1,0 +1,36 @@
+{
+    "name": "jarda256/nova-multi-select-filter",
+    "description": "A Laravel Nova filter that allows multiple selection.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "authors": [
+        {
+            "name": "Jaroslav Stoklasa",
+            "email": "stoklasa.jaroslav@icloud.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "jarda256\\LaravelNovaMultiSelectFilter\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "jarda256\\NovaMultiSelectFilter\\FilterServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
