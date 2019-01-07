@@ -18,7 +18,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "jarda256\\LaravelNovaMultiSelectFilter\\": "src/"
+            "jarda256\\NovaMultiSelectFilter\\": "src/"
         }
     },
     "extra": {
