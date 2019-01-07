@@ -1,6 +1,6 @@
 <?php
 
-namespace Jarda256sparktech\LaravelNovaMultiselectFilter;
+namespace jarda256\NovaMultiSelectFilter;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;

@@ -1,11 +1,11 @@
 <?php
 
-namespace jarda256\NovaMultiselectFilter;
+namespace jarda256\NovaMultiSelectFilter;
 
 use Illuminate\Http\Request;
 use Laravel\Nova\Filters\Filter;
 
-abstract class MultiSelectFilter extends Filter
+abstract class NovaMultiSelectFilter extends Filter
 {
     /**
      * The filter's component.
